@@ -1,18 +1,18 @@
 # 联系方式
 
-- 手机：1380013800
+- 手机：13133150962
 
-- Email：haegyeong.chim@gmail.com
+- Email：yifeng20161123@163.com
 
-- 微信号：Haegyeong
+- 微信号：lyf1776538456
 
 # 个人信息
 
-- 陈小琼/男/1994
+- 刘一峰/男/1995
 
-- 学校：xxx学院/计算机应用技术专业
+- 学校：长治学院/电子信息科学与技术专业
 
-- 工作年限：2年6个月
+- 工作年限：大学三年级
 
 - 简书：[@haegyeong](https://www.jianshu.com/u/3aeb75da748c)  Github：[@haegyeong](https://github.com/haegyeong)  码云：[@_haegyeong](https://gitee.com/null_665_7650)
 
@@ -20,7 +20,7 @@
 
 # 技能清单
 
-- 良好的java基础，熟悉掌握面向对象思想
+- 良好的java基础，熟悉掌握面向对象思想  
 - 熟悉掌握Android应用UI设计、使用常用布局、自定义控件开发
 - 熟悉掌握Android数据存储(文件、SQLite、SharedPreferences等)
 - 熟练处理Android中的OOM、ANR异常
