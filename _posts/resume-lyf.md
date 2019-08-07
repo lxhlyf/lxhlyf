@@ -96,7 +96,7 @@
 
 ## 第三个APP(2019暑假)
 
-- **项目：[FrameConstruct](https://github.com/lxhlyf/FrameConstruct)
+- **项目：[FrameConstruct](https://github.com/lxhlyf/FrameConstruct)**
 
 - **简介：**  FrameConstruct主要用来熟悉Kotlin的用法，以及组件化开发的设计思想，
 
@@ -117,7 +117,7 @@
 
 ## 第四个APP(2019年3月)
 
-- **项目：[ClarityNotes](https://github.com/lxhlyf/ClarityNotes)
+- **项目：[ClarityNotes](https://github.com/lxhlyf/ClarityNotes)**
 
 - **简介：**  ClarityNotes客户端,是我的一个练手的习作，其中采用了litepel以及一些基于Material Design设计风格的库，采用架构是MVC实现上比较简单。
 
@@ -126,7 +126,7 @@
 
 ## 第五个APP(2017 - 现在)
 
-- **项目：[CustomView](https://github.com/lxhlyf/CustomView)
+- **项目：[CustomView](https://github.com/lxhlyf/CustomView)**
 
 - **简介：**  CustomView中包含了我一路学习过来的难点要点总结
 
