@@ -27,11 +27,11 @@
 - 熟悉掌握Android应用UI设计、使用常用布局、自定义控件开发
 - 了解MVC,MVP,MVVM架构
 - 了解掌握Android数据存储(文件、SQLite、SharedPreferences等)
-- 了解View的绘制流程，View的事件分发,Activity的启动流程，系统注册服务的流程
+- 了解View的绘制流程，View的事件分发, Activity的启动流程，系统注册服务的流程
 - 阅读过Handler的源码，AsyncTask的源码，属性动画的源码
-- 使用并阅读过源码的第三方库：ButterKnife(AOP), OkHttp3(interceptor),Rxjava(观察者模式)，Retrofit，EventBus,Glide,XUtils
-- 了解常用的设置模式，并作 出过尝试运用设计模式分装代码
-- 能够阅读和编写H5，JavaScript,css代码，能够实现Android和JS的互相调用
+- 使用并阅读过源码的第三方库：ButterKnife(AOP), OkHttp3(interceptor), Rxjava(观察者模式)，Retrofit，EventBus, Glide, XUtils
+- 了解常用的设置模式，并作出过尝试运用设计模式封装代码
+- 能够阅读和编写H5，JavaScript, css代码，能够实现Android和JS的互相调用
 - 了解JNI的开发流程，能够使用Androidfile.mk或者CMake进行NDK的开发(学习还不算太深入)
 - 了解flutter开发，能够依靠官方文档进行开发，阅读过携程App的flutter源代码，也能够自己实现一些效果。
 - 了解数组，链，队列，栈，树等数据结构
@@ -48,11 +48,11 @@
 
 - **技术点**
 
-    * 项目使用MVC模式作架构
+    * 项目使用MVC模式作为架构
 
-    * 通过HttpUrlConnection获取json,然后通过Android包org.json下的json解析器进行解析成bean
+    * 通过HttpUrlConnection获取json,然后通过Android包org.json下的json解析器将Json字符串解析成bean
 
-    * 使用ListView进行展示数据，图片一个线程去从网络获取，获取后使用SoftReference持有，经过bitmap的压缩之后在data/data和sdcard下都存储一份实现了三级缓存的效果，后期计划可以使用LurCache替换SoftReference
+    * 使用ListView展示数据，图片由一个线程从网络获取，获取后使用SoftReference持有，经过bitmap的压缩之后在data/data和sdcard下都存储一份实现了三级缓存的效果，后期计划可以使用LurCache替换SoftReference
     
     * 音乐播放采用service + MediaPlayer + Broadcast，其中Broadcast设想也可以采用EventBus和AIDL进行替换
     
@@ -60,7 +60,7 @@
 
     * 使用Git作为整个APP项目的代码版本控制
 
-> 项目是我学习Android的第一个项目，所以没有采用第三方库，而是尽量使用android原声的控件和API进行实现的。
+> 此项目是我学习Android的第一个项目，所以没有采用第三方库，而是尽量使用android原生的控件和API进行实现的。
 
 
 
@@ -74,13 +74,15 @@
     
     * 项目使用MVP模式作为架构
     
-    * 通过照相机拍照或者使用ContentProvider从相册中选择选择一张照片最为头像
+    * 通过照相机拍照或者使用ContentProvider从相册中选择一张照片作为头像
 
-    * 使用RxJava + Retrofit +OkHttp作网络请求框架
+    * 使用RxJava + Retrofit +OkHttp作为网络请求框架
+    
+    * 解决了Retrofit多个BaseUrl的问题
 
     * 混合开发，原生与JS互相交互调用
 
-    * 使用JieCaoVideoPlayer进行视屏播放，使用MediaPlayer+Service(通过在onStartCommand判断intent的action来盘控制音乐的播放状态)实现了音频的播放
+    * 使用JieCaoVideoPlayer进行视频播放，使用MediaPlayer+Service(通过在onStartCommand判断intent的action来控制音频的播放状态)实现了音频的播放
     
     * 使用litepel进行SQLite数据库的操作
 
@@ -104,9 +106,9 @@
     
     * 使用Kotlin作为开发语言
 
-    * 使用RxJava + Retrofit + OkHttp作网络请求框架
+    * 使用RxJava + Retrofit + OkHttp作为网络请求框架
 
-    * 实现了首页的Toolbar在Banner显示时为透明，Banner滑出界面Toolbar变为灰色，而其他的三个页面总是灰色的，这是仿写成首页的效果。
+    * 实现了首页的Toolbar在Banner显示时为透明，Banner滑出界面Toolbar变为灰色，而其他的三个页面总是灰色的，这是仿携程APP首页的效果。
 
     * 每一页作为一个Module，使用ARoute进行模块间的调用。实现了解耦和插件化开发的思想
 
@@ -121,6 +123,35 @@
 
 > 分为五大模块: 英语词根笔记 / 英语短语笔记 / 美句笔记 / 读书笔记 / 日记
 
+
+## 第五个APP(2017 - 现在)
+
+- **项目：[CustomView](https://github.com/lxhlyf/CustomView)
+
+- **简介：**  CustomView中包含了我一路学习过来的难点要点总结
+
+- **主要模块*
+    
+    * 继承View的自定义View、
+    
+    * 继承ViewGroup的自定义View
+    
+    * 组合自定义View
+    
+    * Service声明周期，JS和Android的调用
+    
+    * 调用系统照相机
+    
+    * 通过ContentProvider + MediaPlayer 实现本地音乐的播放
+    
+    * MVVM架构的学习
+    
+    * 画笔，画布的用法
+    
+> 这个项目是还会随着我的不断学习进行完善和改进
+
+
+
 # 自我评价
 
 - 有强烈的学习欲望，愿意独立钻研并解决问题
@@ -130,8 +161,8 @@
 - 做事细心有条理，喜欢发现问题，研究问题
 
 
-# 平时如何自学
 
+# 平时如何自学
 
 ## 通过书籍
 
@@ -140,7 +171,7 @@
 - 《Java开发实战经典》 作者:李兴华
 
 ### Android
-- 《疯狂Android的讲义》 作者:李刚
+- 《疯狂Android讲义》 作者:李刚
 - 《Android源码设计模式解析与实战》
 - 《Android开发艺术探索》 作者:任玉刚
 - 《Android进阶之光》 作者:刘望舒
@@ -163,9 +194,9 @@
 - 《Java Web开发实战》
 
 ### 算法和数据结构
-- 《数据结构与算法分析 c语言描述 第二版》
+- 《数据结构与算法分析 c语言 第二版》
 - 《算法图解》
-- 《数据结构与算法分析 C++版 第三版》 作者:美国 Mark Allen Weiss
+- 《数据结构与算法分析 C++ 第三版》 作者:美国 Mark Allen Weiss
 - 《大话数据结构》 作者:程杰
 
 ### 网络开发
