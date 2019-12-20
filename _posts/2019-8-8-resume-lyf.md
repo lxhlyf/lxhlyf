@@ -14,7 +14,7 @@
 
 - 学校：长治学院(山西省)/电子信息科学与技术专业
 
-- 工作年限：大学四年级(还没有实际的工作经验)
+- 工作年限：大学四年级(有俩个月android开发的实习经验)
 
 - Github：[@lxhlyf](https://github.com/lxhlyf)  CSDN: [@lyfxh1314](https://blog.csdn.net/lyfxh1314)
 
